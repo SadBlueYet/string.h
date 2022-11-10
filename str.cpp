@@ -50,6 +50,7 @@ int strlen(char* a)
 int main()
 {
     setlocale(LC_ALL, "ru");
+    char* buffer = new char[5];
     return 0;
 }
 
