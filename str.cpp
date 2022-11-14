@@ -50,12 +50,10 @@ int strlen(char* a)
 int main()
 {
     setlocale(LC_ALL, "ru");
-    /*char* buffer = (char*)malloc(5*sizeof(char));
-    char* buffer = new char[5];*/
-    char str[5] = "asdf";
+    char* buffer = (char*)malloc(5 * sizeof(char));
+    char str[10] = "asdf";
+    std::cin >> buffer;
     std::cout << strcat(buffer, str);
-    //free(buffer);
-    //delete[] buffer;
     return 0;
 }
 
